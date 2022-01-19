@@ -1,0 +1,14 @@
+.shadows {
+  position: relative;
+  text-transform: uppercase;
+  text-shadow: -15px 5px 20px #ced0d3;
+  color: white;
+  letter-spacing: -0.05em;
+  font-family: 'Anton', Arial, sans-serif;
+  user-select: none;
+  text-transform: uppercase;
+  transition: all 0.25s ease-out;
+}
+.shadows:hover {
+  text-shadow: -16px 6px 15px #ced0d3;
+}
