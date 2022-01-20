@@ -1,6 +1,14 @@
 import React from 'react';
 import github from '../images/github.png';
 import linkedin from '../images/linkedin.png';
+import email from '../images/email.png';
+import about from '../data/about-me';
+
+const clipboardCopy = () => navigator.clipboard.writeText(about.email);
+
+const handleClick = () => {
+  clipboardCopy();
+}
 
 const ContactCard = () => (
   <div
@@ -18,6 +26,13 @@ const ContactCard = () => (
         <span className="font-semibold tracking-wider">GitHub</span>
         <img className="h-20 mt-3" src={github} alt="github" />
       </a>
+    </div>
+    <div
+      className="w-auto h-auto flex flex-col items-center justify-evenly"
+      onClick={ () => handleClick() }
+    >
+      <span className="font-semibold tracking-wider">Email</span>
+      <img className="h-20 mt-3" src={email} alt="email" />
     </div>
   </div>
 );
