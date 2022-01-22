@@ -1,4 +1,6 @@
 import React from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import github from '../images/icons/github.png';
 import linkedin from '../images/icons/linkedin.png';
 import email from '../images/icons/email.png';
@@ -11,6 +13,16 @@ export default function ContactCard() {
 
   function handleClick() {
     clipboardCopy();
+    toast.success('Email copied to clipboard!', {
+      position: 'top-right',
+      theme: 'dark',
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+    });
   }
 
   return (
@@ -36,6 +48,17 @@ export default function ContactCard() {
         className="w-auto h-auto flex flex-col items-center justify-evenly"
         onClick={() => handleClick()}
       >
+        <ToastContainer
+          position="top-right"
+          autoClose={5000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+        />
         <span className="font-semibold tracking-wider">Email</span>
         <img className="h-20 mt-3" src={email} alt="email" />
       </button>
