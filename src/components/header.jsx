@@ -1,12 +1,12 @@
 import React from 'react';
-import * as COMP from './';
+import NavButton from './nav-button';
 
-const Header = () => (
-  <div className="w-full h-28 flex items-center justify-around">
-    <COMP.NavButton label="Home" location="/" />
-    <COMP.NavButton label="Projects" location="/projects" />
-    <COMP.NavButton label="Contacts" location="/contacts" />
-  </div>
-);
-
-export default Header;
+export default function Header() {
+  return (
+    <div className="w-full h-28 flex items-center justify-around">
+      <NavButton label="Home" location="/" />
+      <NavButton label="Projects" location="/projects" />
+      <NavButton label="Contacts" location="/contacts" />
+    </div>
+  );
+}

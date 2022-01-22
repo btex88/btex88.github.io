@@ -4,12 +4,14 @@ import Home from '../pages/home';
 import Projects from '../pages/projects';
 import Contacts from '../pages/contacts';
 
-const Router = () => (
-  <Routes>
-    <Route exact path="/" element={<Home />} />
-    <Route path="/projects" element={<Projects />} />
-    <Route path="/contacts" element={<Contacts />} />
-  </Routes>
-);
+function Router() {
+  return (
+    <Routes>
+      <Route exact path="/" element={<Home />} />
+      <Route path="/projects" element={<Projects />} />
+      <Route path="/contacts" element={<Contacts />} />
+    </Routes>
+  );
+}
 
 export default Router;

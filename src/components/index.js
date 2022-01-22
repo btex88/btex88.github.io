@@ -5,6 +5,7 @@ import HomeTitle from './home-title';
 import NavButton from './nav-button';
 import ContactCard from './contact-card';
 import HomeInfo from './home-info';
+import ProjectCard from './project-card';
 
 export {
   ContactTitle,
@@ -14,4 +15,5 @@ export {
   NavButton,
   ContactCard,
   HomeInfo,
+  ProjectCard,
 };
