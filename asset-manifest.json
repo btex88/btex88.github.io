@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.90c2edfc.css",
-    "main.js": "/static/js/main.d67a8961.js",
+    "main.css": "/static/css/main.5bc81ca7.css",
+    "main.js": "/static/js/main.0e21c2c5.js",
     "static/js/787.86e70ff7.chunk.js": "/static/js/787.86e70ff7.chunk.js",
-    "static/media/github.png": "/static/media/github.81563bbdce34dc956cf8.png",
+    "static/media/timesheet-generator.png": "/static/media/timesheet-generator.53d1284ea35e62df9519.png",
+    "static/media/my-sudoku.png": "/static/media/my-sudoku.37fbc6410bfdd2e270a6.png",
+    "static/media/trivia-app.png": "/static/media/trivia-app.bbc86f32ab944f0861fb.png",
+    "static/media/email.png": "/static/media/email.ec354f0f5fd6cb0b6f8e.png",
+    "static/media/github.png": "/static/media/github.a24df78be948339ad621.png",
+    "static/media/linkedin.png": "/static/media/linkedin.6a3c9bcf908a677cbcd5.png",
     "index.html": "/index.html",
-    "main.90c2edfc.css.map": "/static/css/main.90c2edfc.css.map",
-    "main.d67a8961.js.map": "/static/js/main.d67a8961.js.map",
+    "main.5bc81ca7.css.map": "/static/css/main.5bc81ca7.css.map",
+    "main.0e21c2c5.js.map": "/static/js/main.0e21c2c5.js.map",
     "787.86e70ff7.chunk.js.map": "/static/js/787.86e70ff7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.90c2edfc.css",
-    "static/js/main.d67a8961.js"
+    "static/css/main.5bc81ca7.css",
+    "static/js/main.0e21c2c5.js"
   ]
 }
