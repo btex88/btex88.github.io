@@ -1,9 +1,11 @@
+/* eslint-disable react/jsx-no-constructed-context-values */
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import GlobalContext from './global-context';
 
 function GlobalProvider({ children }) {
   const [displayInfo, setDisplayInfo] = useState(false);
+  // eslint-disable-next-line no-unused-vars
   const [clipboardMsg, setClipboardMsg] = useState(false);
 
   useEffect(() => {
